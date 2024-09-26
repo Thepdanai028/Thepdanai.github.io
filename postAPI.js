@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded',() => {
         const Json = {"id":student_id,"name":student_name};
         
         fetch("https://206.189.146.138/api/students",{
-            method:"DELETE",
+            method:"POST",
             headers:{"Content-type": "application/json",},
             body: JSON.stringify(Json)
         })
