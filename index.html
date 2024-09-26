@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>My resume</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="getAPI.js"></script>
+        <script src="postAPI.js"></script>
+            
+    </head>
+    <body>
+        <div class = "upper_bar">
+            <div class="contrainer">
+                <img src="son.jpg"alt ="My picture" width = 200px; class="img">
+                <p style="padding-left: 20px;">Thepdanai Klangnate</p> 
+            </div>
+        </div>
+
+        <div class="contrainer">
+            <!-- Personal box -->
+            <div id = "About_me" class="box">
+                <h1>About me</h1>
+                <ul>
+                    <p><li style="padding-right:20px;">I am a third-year Instrumentation and Automation Engineering student at King Mongkut's University of Technology North Bangkok. 
+                        I am seeking opportunities in instrumentation and automation and I eager to contribute my skills and knowledge to your organization.</li></p>
+                </ul>        
+                <h1 id ="contract">Contract</h1>
+                <ul>
+                    <li><b>Email:</b> son_tk28@hotmail.com</li>
+                    <li><p><b>Phone:</b> 081 141 8502<p></li>
+                    <li><b>Address:</b> 150 group 5, soi 5, talechubsorn, mueng, Lopburi 15000</li>
+                </ul>
+                
+                <h1 id ="skill">Skills</h1>
+                <ul>
+                    <li><p>Python, C (beginner) </p></li>
+                    <li><p>PLC Siemens, omron, mitsubishi (beginner)</p></li>
+                    <li><p>Excel (beginner command)</p></li>
+                    <li><p>Can work with team</p></li>
+                    <li><p>Can be leader and follower as well</p></li>
+                </ul>
+                <h1>Languages</h1>
+                <ul>
+                    <li><b>English:</b> Intermediate</li>
+                    <li><p><b>Thai:</b> Native<p></li>
+                </ul>
+            </div>
+
+
+            <!-- Exp box -->
+            <div id = "exp" class="exp_box">
+                <h1>Experiece</h1>
+                <a href="https://www.imcinstrument.com/"><h2>Intern technician - Inctech Metrological Center</h2> </a>
+                <ul>
+                    <li>Calibration of various measuring devices for temperature, dimensions, mass, pressure, and chemistry, both in the lab and at the customer's company.</li>   
+                </ul>
+                <a href="https://minebea.co.th/en/plants/lopburi/"><h2>Intern - NMB Minebea Lopburi</h2></a>
+                <ul>
+                    <li>Mini project about a timer for immersing paint buckets of different types of measuring instruments using Nextion as a touch screen and Node MCU to control the machine for MSE department.</li>
+                    
+                </ul>
+                <a href="https://www.facebook.com/itshoplb/"><h2>Intern computer technician - IT Shop Lopburi</h2></a>
+                <ul>
+                    <li><p>Computer assembly and computer repair.</p></li>
+                    <li><p>Give advice to customers about computers and labtops.</p></li>
+                    <li><p>Install various programs on the computer.</p></li>
+                </ul>
+                <h2>Vocational skill competition</h2>
+                <ul>
+                    Device Control Design and Development Skills - Control temperature, light, humidity of farm
+                    <li><p>15th at Thai nation level</p></li>
+                    <li><p>2nd at Center thai region level</p></li>
+                    <li>1st at Lopburi Province level</li>
+                    
+                </ul>
+                <h1 id ="education">Education</h1>
+                <a href="https://iee.eng.kmutnb.ac.th/"><h2>King Mongkut's University of Technology North Bangkok</h2></a>
+                <ul>
+                    <li>2022-present Bachelor of Engineering, Major in Intrumentation and Automation Engineering</li>GPA:3.36
+                </ul>
+                <a href="https://www.lbtech.ac.th/"><h2>Lopburi technical college</h2></a>
+                <ul>
+                    <p><li>2020-2022 High vocational Certificate of in industrial electronics</li>GPA:4.00</p>
+                    <li>2017-2020 Vocational Certificate of electronics</li>
+                </ul>
+
+            </div>
+        </div>
+
+
+
+        <!-- parameters box -->
+        <div class="contrainer"> 
+            
+            <!-- username box -->
+            <div class="api_post">
+                <div class = "Head text">Information</div>
+                <form id="information">
+                    <p><input type="text" id="Name" class="input_placeholder" placeholder="Enter your full name" name = "name"></p>
+                    <p><input type="text" id="Id" class="input_placeholder" placeholder="Enter your student id" name ="id"></p>
+                    <p style="padding-top: 20px;"><input type="submit" id = "submit" class="input_submit"></p>
+                </form>
+            </div>
+
+            <!-- sensor parameter box -->
+            <div id = "api" class="api_get">
+                <div class = "Head">Parameters</div>
+                <p id="time"></p>
+                Temperature <div id="temp" style="padding-top: 5px;"></div>
+                Humidity <div id="hum" style="padding-top: 5px;"></div>
+                Light <div id="light" style="padding-top: 5px;"></div>
+                <p id="motion"></p>
+            </div>
+
+        </div>
+
+
+
+        <!-- foot -->
+        <div class="lower_bar">
+            <div class="lower-text">
+                <div style="padding-bottom: 20px;">My social media</div>
+                <a href="https://www.facebook.com/thapdanai/"><img src = "facebook.png" alt ="facebook" style="padding: 20px;"></a>
+                <a href="https://www.instagram.com/s_tk28/"><img src = "ig.png" alt ="ig" style="padding: 20px;"></a>
+                <a href="https://line.me/ti/p/bxv0CFVcRH"><img src = "line.png" alt ="line"style="padding: 20px;"></a>
+            </div>
+
+        </div>
+    </body>
+</html>

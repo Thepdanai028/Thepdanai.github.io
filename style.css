@@ -1,0 +1,158 @@
+body {
+    font-family:Times, serif;
+    font-size: 20px;
+    background: radial-gradient(circle, #041d36 0%, #224c77 47%, #7ea3ca);
+}
+
+.img{
+    display: block; 
+    border-radius: 50%; 
+    border: 5px solid #041d36;
+}
+
+.H_center{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.Head{
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.contrainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #041d36;
+    color: white;
+    padding-left: 20px;
+    /* margin: 3%; */
+    border-radius: 20px;
+    
+}
+
+h2 {
+    font-size: 25px;
+    padding-left: 20px;
+    color: #041d36;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+h2:hover{
+    transform: scale(1.01);
+    color: #5ca0e4;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 50px;
+}
+
+.box, .exp_box, .api_get, .api_post{
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+    border :5px solid #041d36;
+    position: relative;
+    color: #041d36;
+    border-radius: 10px;
+
+}
+@media(min-width: 1000px){
+    .box, .api_post{
+        width: 30%;
+    }
+    .exp_box, .api_get{
+        width: 60%;
+    }
+}
+
+@media(max-width: 999px){
+    .box, .exp_box, .api_post, .api_get{
+        width: 80%;
+        /* justify-content: center; */
+    }
+}
+
+@media(max-width: 499px){
+    body{ font-size: 14px;}
+    h1{ font-size: 22px; }
+    h2{ font-size: 18px; }
+    .input_placeholder{ font-size: 16px;}
+}
+.upper_bar, .lower_bar{
+    text-align: center;
+    padding: 20px;
+    font-size: 59px;
+    font-weight: 700;
+    color: white;
+    border-radius: 15px;
+    background-color: #041d36;
+    position: relative;
+    width: 100%;
+}
+
+.lower_bar{
+    bottom: 0;
+}
+
+.lower-text{
+    font-size: 20px;
+    color: white;
+}
+
+#temp, #hum, #light{
+    width: 1%;
+    height: 30px;
+    background-color: #041d36;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* -----postAPI----- */
+
+form{
+    padding: 20px;
+    text-align: center;
+}
+
+.input_placeholder{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.input_submit{
+    /* background-color: #041d36; */
+    height: 40px;
+    width: 200px;
+    /* color: white; */
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.input_submit:enabled{
+    background-color: #041d36;
+    color: white;
+    border-color: #031220;
+    cursor: pointer;
+}
+
+
