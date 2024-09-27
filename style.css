@@ -5,7 +5,6 @@ body {
 }
 
 .img{
-    display: block; 
     border-radius: 50%; 
     border: 5px solid #041d36;
 }
@@ -70,37 +69,6 @@ ul{
 
 }
 
-@media(min-width: 1000px){
-    .box, .api_post{
-        width: 30%;
-    }
-    .exp_box, .api_get{
-        width: 60%;
-    }
-}
-
-@media(max-width: 999px){
-    .box, .exp_box, .api_post, .api_get{
-        width: 80%;
-    }
-    body{
-        justify-content: center;
-    }
-}
-
-@media(max-width: 499px){
-
-    h1{ font-size: 22px; }
-    h2{ font-size: 18px; }
-    body{
-        font-size: 14px;
-        justify-content: center;
-    }
-    .input_placeholder{ 
-        font-size: 16px;
-        width: 100%;
-    }
-}
 
 .upper_bar, .lower_bar{
     text-align: center;
@@ -113,10 +81,6 @@ ul{
     background-color: #041d36;
     position: relative;
     width: 100%;
-}
-
-.lower_bar{
-    bottom: 0;
 }
 
 .lower-text{
