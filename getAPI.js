@@ -15,8 +15,9 @@ document.addEventListener("DOMContentLoaded",()=>{
             const year   = date.getFullYear();
             const hours  = date.getHours();
             const min    = date.getMinutes();
+            const sec    = date.getSeconds();
             
-            document.querySelector("#time").innerHTML   = `Day : ${day}/${month}/${year}  ${hours}:${min}`
+            document.querySelector("#time").innerHTML   = `Day : ${day}/${month}/${year}  ${hours}:${min}:${sec}`
             document.querySelector("#temp").innerHTML   = `${temp} celsius`
             document.querySelector("#hum").innerHTML    = `${hum} %`
             document.querySelector("#light").innerHTML  = `${light} luxes`
