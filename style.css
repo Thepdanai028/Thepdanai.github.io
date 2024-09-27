@@ -69,6 +69,7 @@ ul{
     border-radius: 10px;
 
 }
+
 @media(min-width: 1000px){
     .box, .api_post{
         width: 30%;
@@ -99,8 +100,8 @@ ul{
         font-size: 16px;
         width: 100%;
     }
-
 }
+
 .upper_bar, .lower_bar{
     text-align: center;
     padding-top: 20px;
@@ -178,4 +179,34 @@ form{
     color: #031220;
 }
 
+@media(min-width: 1000px){
+    .box, .api_post{
+        width: 30%;
+    }
+    .exp_box, .api_get{
+        width: 60%;
+    }
+}
 
+@media(max-width: 999px){
+    .box, .exp_box, .api_post, .api_get{
+        width: 80%;
+    }
+    body{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 499px){
+
+    h1{ font-size: 22px; }
+    h2{ font-size: 18px; }
+    body{
+        font-size: 14px;
+        justify-content: center;
+    }
+    .input_placeholder{ 
+        font-size: 16px;
+        width: 100%;
+    }
+}
