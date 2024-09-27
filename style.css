@@ -81,7 +81,9 @@ ul{
 @media(max-width: 999px){
     .box, .exp_box, .api_post, .api_get{
         width: 80%;
-        /* justify-content: center; */
+    }
+    body{
+        justify-content: center;
     }
 }
 
@@ -101,7 +103,8 @@ ul{
 }
 .upper_bar, .lower_bar{
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 59px;
     font-weight: 700;
     color: white;
